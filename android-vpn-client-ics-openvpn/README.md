@@ -1,9 +1,4 @@
 # Android VPN Client using ics-openvpn
-[![Build Status](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn.svg?branch=master)](https://travis-ci.org/gayanvoice/android-vpn-client-ics-openvpn) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-vpn-client-ics-openvpn)
-
-<img width="300" alt="Android VPN Client using ics-openvpn" src="https://gayanvoice.github.io/android-vpn-client-ics-openvpn/static/media/0-android-vpn-client-app.b8e63ecd.gif">
-
-Go to the Medium article to see how to configure the project [https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e?sk=57ebd1c9175d5f56bd8e328731b5ac74](https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e?sk=57ebd1c9175d5f56bd8e328731b5ac74)
 
 The client app is based on OpenVPN protocol, and you can create your own android VPN apps like Turbo VPN, Thunder VPN, or Hotspot Shield Free VPN.
 
@@ -35,19 +30,19 @@ The remainder of this document contains how to deploy the app on production and 
 # Develop
 
 ## #1 Select checkout project from version control
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
 
 ## #2 Enter the link of the repository and select project folder
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
 
 ## #3 Click Yes to open the repositoy on the project
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/images/source-json/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
 
 ## #4 Build started
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-4-build-started.PNG "step-4-build-started")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-4-build-started.PNG "step-4-build-started")
 
 ## #5 Build finished
-![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/images/step-5-build-finished.PNG "step-5-build-finished")
+![https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/master/images/step-5-build-finished.PNG "step-5-build-finished")
 
 ## Deploy
 
@@ -61,74 +56,13 @@ The remainder of this document contains how to deploy the app on production and 
 **App details**
 
 Load the details of the app from the following link [app details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59).
-Go to [appdetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/appdetails.json).
+Go to [appdetails.json](https://gayankuruppu.github.io/oml/buzz/appdetails.json).
 
 **File details**
 
 Load the OpenVPN files from the following link [file details](https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60).
-Go to [filedetails.json](https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json).
-
-# Configure appdetails.json
-```json
-{
-  "ads":"true",
-  "update":[{
-    "version":"2.8.1600",
-    "title":"This app is now Open Source",
-    "description":"The App is available at github.com/gayankuruppu/android-vpn-client-ics-openvpn",
-    "size":"https://git.io/JeY69"
-  }],
-  "blocked":[
-    {"id":0, "app":"com.android.game"},
-    {"id":1, "app":"com.utorrent.client"},
-    {"id":2, "app":"com.torrent.client"},
-    {"id":3, "app":"com.tor.client"},
-    {"id":4, "app":"com.insta.client"},
-    {"id":5, "app":"com.facebook.client"},
-    {"id":6, "app":"com.get.client"}
-  ],
-  "free":[
-    {"id":0, "file":0, "city":"Essen","country":"Germany","image":"germany","ip":"51.68.191.75","active":"true","signal":"a"},
-    {"id":1, "file":0, "city":"Hamburg","country":"Germany","image":"germany","ip":"51.68.191.75","active":"true","signal":"b"},
-    {"id":2, "file":1, "city":"Los Angeles CA","country":"United States","image":"unitedstates","ip":"205.185.119.100","active":"true","signal":"c"}
-  ]
-}
-```
-
-## The appdetails.json file has four main parts.
-* The value `ads` is a `boolean value`, you can choose `true` or `false`. If the value is `true`, the app will show ads when the session starts. Otherwise, ads will not show if the value is `false`.
-
-* The array `update` has three values. version is a `String value` which is the latest version of the app. When the session starts the app check if the version value is equal to the version of the app. If the values do not match with each other the Update View will show. The values `title`, `description`, and `size` are the values display in the Update View.
-
-* The array `blocked` has JSON objects with values `id` and `package name`. You can add apps such as Torrent to avoid the peer to peer file sharing which often misuse by downloading digital media.
-
-* The array `free` has values of the server names. The value `city` displays the `server name` and the value `image` is the name of the flag. The value `signal` is the value of the `strength of the signal`. The value `file` is the `index` value of the `source OVPN file` in the `filedetails.json`.
-
-* Change the JSON values and upload into your server or host it in the forked repository (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/appdetails.json) and add the link of the JSON file in the WelcomeActivity.java file https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59
-
-# Configure filedetails.json
-```json
-{
-  "ovpn_file":[
-    {"id":0,"file":"client
-    dev tun
-    proto udp
-    ...
-    d4ec4105a39c814bd980c9c0e0b8efb4
-    -----END OpenVPN Static key V1-----
-    </tls-auth>"},
-    {"id":1,"file":""}]
-}
-```
-* The filedetails.json file stores the `OpenVPN source file` which is a `String` value to set up teh internet connection.
-* Copy the text in the `OVPN file` and paste it in the JSON String (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/filedetails.json)
-* Add the link address in the WelcomeActivity.java https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L60
-
-# Run the app
-* That is all. Now to can change the app UI and deploy the app.
-* Remove the Google Services JSON file before deploying (https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/master/app/google-services.json)
-Github https://github.com/gayankuruppu/android-vpn-client-ics-openvpn
+Go to [filedetails.json](https://gayankuruppu.github.io/oml/buzz/filedetails.json).
 
 # References
-1. [OpenVPN for Android - GitHub](https://github.com/schwabe/ics-openvpn)
-2. [Develop a VPN App in Java using Android Studio - Medium](https://medium.com/@kuruppu.gayan/develop-a-vpn-app-in-java-using-android-studio-6f1f2d66031e)
+
+1. [OpenVPN for Android](https://github.com/schwabe/ics-openvpn)
