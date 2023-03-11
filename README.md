@@ -1,1 +1,1 @@
-# OpenVPN-VPS-Setup
+# OpenVPN-Setup
