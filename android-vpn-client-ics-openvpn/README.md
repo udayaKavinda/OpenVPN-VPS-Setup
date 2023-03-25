@@ -19,10 +19,12 @@ Get the APK files from the following app-stores
 3. [https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T](https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T)
 
 ## Images
-![Android VPN Client using ics-openvpn](https://lh3.googleusercontent.com/yvUkS8eVus7uFmN29-A-xGWihG_4JyizZ-09X4rpjsoxL7tJH3vKFsvfRsD78dnfKFE=w1366-h657-rw "Android VPN Client using ics-openvpn")
+![Android VPN Client using ics-openvpn](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/android-vpn-client-ics-openvpn-image.png "Android VPN Client using ics-openvpn")
 
 ## Watch
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1ms4mxEw378/0.jpg)](https://www.youtube.com/watch?v=1ms4mxEw378)
+<a href="https://www.youtube.com/watch?v=1ms4mxEw378">
+<img src="https://github.com/gayanvoice/gayanvoice.github.io/blob/source-json/images/android-vpn-client-ics-openvpn-yt.png" height="600px"/>
+</a>
 
 # Introduction
 
@@ -38,16 +40,16 @@ The remainder of this document contains how to deploy the app on production and 
 ![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-1-checkout-project-from-version-control.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-1-checkout-project-from-version-control.png "step-1-checkout-project-from-version-control")
 
 ## #2 Enter the link of the repository and select project folder
-![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.PNG "step-2-enter-the-link-of-the--git-repository")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-2-enter-the-link-of-the--git-repository.png "step-2-enter-the-link-of-the--git-repository")
 
 ## #3 Click Yes to open the repositoy on the project
-![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/images/source-json/step-3-click-yes-to-open-the-repository.PNG "step-3-click-yes-to-open-the-repository")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-3-click-yes-to-open-the-repository.png "step-3-click-yes-to-open-the-repository")
 
 ## #4 Build started
-![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.PNG "step-4-build-started")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-4-build-started.png "step-4-build-started")
 
 ## #5 Build finished
-![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.PNG](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.PNG "step-5-build-finished")
+![https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.png](https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/images/step-5-build-finished.png "step-5-build-finished")
 
 ## Deploy
 
@@ -104,7 +106,7 @@ Go to [filedetails.json](https://raw.githubusercontent.com/gayanvoice/gayanvoice
 
 * The array `free` has values of the server names. The value `city` displays the `server name` and the value `image` is the name of the flag. The value `signal` is the value of the `strength of the signal`. The value `file` is the `index` value of the `source OVPN file` in the `filedetails.json`.
 
-* Change the JSON values and upload into your server or host it in the forked repository (https://raw.githubusercontent.com/gayankuruppu/gayankuruppu.github.io/source-json/appdetails.json) and add the link of the JSON file in the WelcomeActivity.java file https://github.com/gayankuruppu/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59
+* Change the JSON values and upload into your server or host it in the forked repository (https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/appdetails.json) and add the link of the JSON file in the WelcomeActivity.java file https://github.com/gayanvoice/android-vpn-client-ics-openvpn/blob/c35b88b40a8ba6aa382ca7324981511f4c6e886d/app/src/main/java/com/buzz/vpn/WelcomeActivity.java#L59
 
 # Configure filedetails.json
 ```json
