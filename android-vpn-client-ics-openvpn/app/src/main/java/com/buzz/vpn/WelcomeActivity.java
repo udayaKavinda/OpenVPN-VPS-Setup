@@ -56,9 +56,9 @@ public class WelcomeActivity extends AppCompatActivity {
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        StringGetAppURL = "https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/appdetails.json";
-        StringGetConnectionURL = "https://raw.githubusercontent.com/gayanvoice/gayanvoice.github.io/source-json/filedetails.json";
-        //StringGetConnectionURL = "https://gayanvoice.github.io/buzz/connection.html";
+        StringGetAppURL = "https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/appdetails.json";
+        StringGetConnectionURL = "https://raw.githubusercontent.com/gayanvoice/android-vpn-client-ics-openvpn/images/filedetails.json";
+        //StringGetConnectionURL = "https://gayankuruppu.github.io/buzz/connection.html";
 
         Typeface RobotoMedium = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
         Typeface RobotoRegular = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Regular.ttf");
@@ -109,7 +109,9 @@ public class WelcomeActivity extends AppCompatActivity {
                     intent.setData(Uri.parse("market://details?id=com.buzz.vpn"));
                     startActivity(intent);
                 } catch (ActivityNotFoundException activityNotFound) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.buzz.vpn")));
+                    // startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.buzz.vpn")));
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gayanvoice/android-vpn-client-ics-openvpn")));
+
                 } catch (Exception e) {
                     Bundle params = new Bundle();
                     params.putString("device_id", App.device_id);
